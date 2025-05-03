@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #5e78eb 0%, #7f4ba2 100%);
+    background-size: 400% 400%;
+    animation: gradientBG 5s ease infinite;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #4CAF50;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #e6d8d8;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(57, 56, 56, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #e6d8d8;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #dcf1c9;
+    color: #000000;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 48%;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background: #218838;
+    transform: scale(1.05);
+    box-shadow: 0 0 95px rgba(22, 47, 156, 0.7);
+}
+
+.admit-card {
+    background: linear-gradient(145deg, #dcdcdc, #f5f5f5);
+    color: #333;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    border: 5px solid #4caf50;
+    padding: 2rem;
+}
+
+.admit-card h2 {
+    background: #43a047;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.admit-details {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.admit-details p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.admit-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #1f478b;
+    transform: scale(1.05);
+    box-shadow: 0 0 95px rgba(22, 47, 156, 0.7);
+}
+
+.footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #4CAF50;
+}
