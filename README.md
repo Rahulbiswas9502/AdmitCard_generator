@@ -17,16 +17,12 @@ A simple yet powerful tool to generate customized admit cards for students or ex
 ## 🛠️ Tech Stack
 
 - HTML / CSS / Bootstrap
-- JavaScript
-- Python (for backend generation or scripting)
-- [Add any libraries used like jsPDF, pandas, etc.]
+- PHP (for backend generation)
+- FPDF (for backend creating downloadable pdf file)
+- MySQL (for data storage)
 
 ---
 
-## 📸 Screenshots
 
-> *(Add screenshots of the UI or sample admit card here)*
-
----
 
 
